@@ -1,5 +1,6 @@
 {
     "name": "csulok0000/devtools",
+    "type": "library",
     "version": "0.1",
     "authors": [
         {
