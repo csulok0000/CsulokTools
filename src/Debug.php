@@ -123,7 +123,7 @@ class Debug {
     
     protected static function printHTML(mixed $var, array $backTrace): void {?>
         <div style="border: solid 1px #8CF; display: inline-block;">
-            <div style="background: #ADF; padding: 3px 10px;">Debug in <b><?php echo $d[0]['file'];?></b> on line <b><?php echo $d[0]['line'];?></b></div>
+            <div style="background: #ADF; padding: 3px 10px;">Debug in <b><?php echo $backTrace[0]['file'];?></b> on line <b><?php echo $backTrace[0]['line'];?></b></div>
             <pre style="padding: 10px;"><?php
                 if ($var === Enum\Debug::NO_PARAM) {
                     echo ""; 
