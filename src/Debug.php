@@ -136,9 +136,9 @@ class Debug {
             ?></pre>
             <div style="font-size: 0.9rem; padding: 10px;">
                 <?php
-                unset($d[0]);
+                unset($backTrace[0]);
 
-                foreach ($d as $trace) {
+                foreach ($backTrace as $trace) {
                     ?><div><?php
                     $callable = [];
                     $args = [];
